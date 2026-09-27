@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login frm</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-image: url(kalen-emsley-Bkci_8qcdvQ-unsplash.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .card{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             width: 100%;
+             height: 500px;
+             
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 0px 25px;
+            
+            width: 25%;
+            height: 350px;
+        }
+        form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    
+
+}
+h1{
+    padding-bottom: 15px;
+    color: white;
+
+}
+  
+
+  
+  button{
+    width: 90%;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px 0px;
+  }
+  input{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  input::placeholder{
+    color: white;
+    
+  }
+  button:hover{
+    background-color: rgb(228, 227, 227);
+  }
+  p{
+    padding:15px 0px;
+    color: white;
+  }
+  p a{
+ color: white;
+  text-decoration: none;
+  }
+  input[type="checkbox"]{
+    width: 25px;
+    height: 15px;
+    
+  } 
+
+  .remember{
+    color: white;
+    
+    display: flex;
+gap: 6px;
+justify-content: center;
+align-items: center;
+text-align: center;
+    
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <form>
+            <h1>Login</h1>
+            <input type="text" placeholder="Usrenmae">
+            <input type="password" placeholder="password">
+                
+               <div class="remember">
+               <input type="checkbox"> Remember Me  <a href="">forgot password?</a>
+               </div>            
+    
+                <button type="submit">submit</button>
+             <p>Don't have an account? <a href="index.html">Register</a></p>
+             
+        </form>
+    </div>
+</body>
+</html>
